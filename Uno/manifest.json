@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Uno Online",
+	"description": "Uno Online: The classic card game comes to life in your browser! Have you ever wanted to play a good game of Uno with your friends, but didn't have the cards? Have you ever wanted to play Uno online, but couldn't find a good version? If you answered yes to any of these questions, then this is the extension for you!",
+	"version": "1.0",
+	
+	"default_locale": "en",
+
+	"browser_action": {
+		"default_icon": {
+			"16": "images/icon16.png",
+			"32": "images/icon32.png",
+			"64": "images/icon64.png",
+			"128": "images/icon128.png"
+		},
+		"default_popup": "index.html",
+		"default_title": "Uno Online",
+		"default_script": "script.js"
+	},
+
+	"permissions": [
+		"notifications",
+	]
+}
